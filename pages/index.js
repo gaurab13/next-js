@@ -27,7 +27,7 @@ const PostLink = (props) => (
 
 const Index = (props) => (
   <Layout>
-    <h1>My Blog</h1>
+    <h1>Blog with next js</h1>
     <ul>
       {props.shows.map(({show}) => (
         <PostLink key={show.id} id={show.id} title={show.name} />
